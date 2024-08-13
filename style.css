@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+  --ff-poppins: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+body {
+  background-image: url(./assets/bg-intro-desktop.png);
+  background-color: var(--red);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--ff-poppins);
+}
+
+h2 {
+  color: white;
+  font-weight: 700;
+  font-family: var(--ff-poppins);
+  font-size: 3rem;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: var(--ff-poppins);
+}
+
+.form-container {
+  border-radius: 0.5rem;
+}
+
+/* span{
+  color: var(--red);
+} */
+
+.button-1{
+  border: none;
+  height: 3rem;
+  background: var(--blue);
+  border-radius: 0.5rem;
+}
+
+.button-2 {
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--green);
+  color: white;
+  height: 3rem;
+}
+
+.button-2:hover{
+  background: hsl(154, 26%, 58%);
+}
+
+.form-container p{
+  color: var(--Grayish-Blue);
+  font-size: 11px;
+}
+
+.form-container p > span{
+  color: var(--red);
+}
+
+@media (max-width:375px) {
+  h2{
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  p{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .button-1{
+    height: 4rem;
+    margin-top: 2rem;
+    padding: 0 3rem;
+    align-items: center;
+  }
+  input{
+    height: 3rem;
+  }
+  main{
+    padding: 3rem;
+  }
+}
