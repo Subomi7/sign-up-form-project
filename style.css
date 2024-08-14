@@ -47,7 +47,7 @@ p {
   color: var(--red);
 } */
 
-.button-1{
+.button-1 {
   border: none;
   height: 3rem;
   background: var(--blue);
@@ -62,41 +62,41 @@ p {
   height: 3rem;
 }
 
-.button-2:hover{
+.button-2:hover {
   background: hsl(154, 26%, 58%);
 }
 
-.form-container p{
+.form-container p {
   color: var(--Grayish-Blue);
   font-size: 11px;
 }
 
-.form-container p > span{
+.form-container p > span {
   color: var(--red);
 }
 
-@media (max-width:375px) {
-  h2{
+@media (max-width: 475px) {
+  h2 {
     margin-top: 1rem;
     text-align: center;
     align-items: center;
     width: 100%;
     font-size: 1.8rem;
   }
-  p{
+  p {
     text-align: center;
     margin-top: 2rem;
   }
-  .button-1{
+  .button-1 {
     height: 4rem;
     margin-top: 2rem;
     padding: 0 3rem;
     align-items: center;
   }
-  input{
+  input {
     height: 3rem;
   }
-  main{
+  main {
     padding: 3rem;
   }
 }
