@@ -76,6 +76,12 @@ p {
 }
 
 @media (max-width: 475px) {
+  body{
+    background-image: url(./assets/bg-intro-mobile.png);
+    background-color: var(--red);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   h2 {
     margin-top: 1rem;
     text-align: center;
@@ -97,6 +103,6 @@ p {
     height: 3rem;
   }
   main {
-    padding: 3rem;
+    margin: 4rem;
   }
 }
